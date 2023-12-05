@@ -1,34 +1,38 @@
---깃실행후 깃상태확인
-pwd ->작업폴더확인
-ls-al ->현재 작업폴더에 있는 모든 파일과 디렉토리에 대한 자세한 정보를 제시
+# 깃 실행 후 현재 작업 디렉토리 확인
+pwd
 
---작업디렉토리의 정보확인(앞에 git이 붙지 않는다)
-git --version ->버전확인
-git config --list ->설정확인
-git --help ->도움
+# 현재 작업 폴더에 있는 모든 파일과 디렉토리에 대한 자세한 정보 확인
+ls -al
 
---깃 실행 이후 필수 코드들
-git config --global user.name rladydwns2371      ---->사용자이름 설정
-git config --global user.email gimyongjun796@gmail.com     --->사용자 메일 설정
-git config --global core.autocrlf true       --->줄바꿈자동 변환
-git config --global core.safecrlf false        --->줄바꿈 안전 설정
-git config --global core.editor 'code-wait'    --->기본편집기 설정
-git config --global init defaultBranch main     --->기본브랜치이름을 메인으로 설정하고 예전에는 master을 주로 썻지만 요즘에는 main을 주로 쓴다.
+# 작업 디렉토리 정보 확인 (git이 붙지 않음)
+git --version     # 깃 버전 확인
+git config --list # 깃 설정 확인
+git --help        # 도움말
 
---저장소 생성 코드
-git init <저장소이름>  ->저장소 생성
-cd <저장소이름>  ->폴더 이동 (위 폴더 밑에서 작업)
+# 깃 필수 설정
+git config --global user.name rladydwns2371  # 사용자 이름 설정
+git config --global user.email gimyongjun796@gmail.com  # 사용자 이메일 설정
+git config --global core.autocrlf true       # 줄바꿈 자동 변환
+git config --global core.safecrlf false      # 줄바꿈 안전 설정
+git config --global core.editor 'code-wait'  # 기본 편집기 설정
+git config --global init.defaultBranch main  # 기본 브랜치 이름을 main으로 설정
 
+# 저장소 생성 코드
+git init <저장소이름>  # 저장소 생성
+cd <저장소이름>        # 저장소로 이동
 
---파일 생성코드
-echo (파일에 들어갈 문장) 파일이름.txt
-cat hello.txt
-(파일에 들어가 있는 문장)
+# 파일 생성 코드
+echo "안녕하세요, Git!" > 파일이름.txt     # 파일 생성 및 내용 입력
+cat 파일이름.txt      # 파일 내용 확인
 
-git status --long   -->현재상태표시
-git status --short   -->파일 상대를 간단히 표시 (=git status -s)
+# 깃 상태 확인
+git status --long     # 현재 상태 자세히 표시
+git status --short    # 파일 상태 간단히 표시 (git status -s)
 
-git add <파일이름>.txt ...
-git status --long
+# 파일 추가 및 상태 확인
+git add 파일이름.txt  # 파일 추가
+git status --long     # 현재 상태 자세히 표시
 
-git rm --catched hello.txt
+# 파일 삭제 및 상태 확인
+git rm --cached hello.txt  # Staging 영역에서 파일 제거
+git status --long          # 현재 상태 자세히 표시
