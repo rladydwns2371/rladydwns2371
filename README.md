@@ -11,10 +11,15 @@ git --help        # 도움말
 
 # 깃 필수 설정
 git config --global user.name rladydwns2371  # 사용자 이름 설정
+
 git config --global user.email gimyongjun796@gmail.com  # 사용자 이메일 설정
+
 git config --global core.autocrlf true       # 줄바꿈 자동 변환
+
 git config --global core.safecrlf false      # 줄바꿈 안전 설정
+
 git config --global core.editor 'code-wait'  # 기본 편집기 설정
+
 git config --global init.defaultBranch main  # 기본 브랜치 이름을 main으로 설정
 
 # 저장소 생성 코드
