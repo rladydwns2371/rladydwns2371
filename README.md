@@ -1,4 +1,10 @@
-# 깃 실행 후 현재 작업 디렉토리 확인
+<img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt="GitHub Logo" width="300" height="200">
+
+
+
+
+# 깃 실행 후 현재 작업 디렉토리 확인 
+
 pwd
 
 # 현재 작업 폴더에 있는 모든 파일과 디렉토리에 대한 자세한 정보 확인
@@ -41,3 +47,5 @@ git status --long     # 현재 상태 자세히 표시
 # 파일 삭제 및 상태 확인
 git rm --cached hello.txt  # Staging 영역에서 파일 제거
 git status --long          # 현재 상태 자세히 표시
+
+
