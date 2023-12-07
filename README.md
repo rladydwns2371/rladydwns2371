@@ -32,6 +32,9 @@
 ## 인스타링크  <img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg" width="50" height="50">
 #[![https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg](https://img.shields.io/badge/Follow-Instagram-ff69b4)](https://www.instagram.com/04y12m05d/)
 
+## 깃허브 사용목적
+-오픈소스소프트웨어 교과목의 자기주도학습을 통한 내용정리
+
 
 프로필을 방문해주셔서 감사합니다! 😊
 
