@@ -67,6 +67,17 @@ Backend
 
 [Repository ↗](https://github.com/Muscle-6/MODULE2-LMS-PROJECT) · [AOP 필터링 PR ↗](https://github.com/Muscle-6/MODULE2-LMS-PROJECT/pull/151)
 
+### 05 · Taste Report
+
+**질문형 입력과 AI 분석을 결합한 영화 취향 리포트 서비스**  
+Fullstack · AI · In Progress
+
+- React 19, TypeScript, Vite와 FastAPI 기반 개발 환경 및 프론트엔드 `/api` 연결 구축
+- 영화 질문지와 질문별 의미를 보존하는 답변 상태 모델부터 단계적으로 구현 중
+- 구조화된 AI 취향 분석, 근거 기반 영화 추천과 9:16 공유 카드 구현을 MVP 목표로 설정
+
+[Repository ↗](https://github.com/rladydwns2371/Project-TASTEREPORT) · [개발 기록 ↗](https://velog.io/@rladydwns2371/posts)
+
 ## Data & Research
 
 ### WEAFINE-R · 기상 예보 오차 보정
